@@ -105,7 +105,7 @@ class Chess:
         return z[0] + str(list(reversed(posA)).index(int(z[1])) + 1)
 
     def start_game(self):
-        self.evaluateMoves()
+        # self.evaluateMoves()
         while not self.loaded:
             file_name = input("Type file name or 'new' for a NEW game: ")
             file_name = file_name.lower()
